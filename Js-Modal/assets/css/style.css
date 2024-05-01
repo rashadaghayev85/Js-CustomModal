@@ -1,0 +1,39 @@
+.modal-content {
+  width: 500px;
+  height: 200px;
+  background-color: #fff;
+  margin-left: 500px;
+  position: absolute;
+  transform: translateY(-500px);
+  display: inline-block;
+  z-index: 1;
+  top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all ease 0.4s;
+}
+.modal-content h4 span {
+  margin-left: 320px;
+}
+.modal-content button:nth-child(3) {
+  width: 80px;
+  display: inline;
+  position: absolute;
+  left: 200px;
+  bottom: 3px;
+  background-color: #6c757d;
+}
+.modal-content button:last-child {
+  width: 200px;
+  display: inline;
+  position: absolute;
+  right: 10px;
+  bottom: 3px;
+}
+
+.cont {
+  width: 100vw !important;
+  height: 100vh;
+  background-color: #fff;
+  transition: all ease 0.3s;
+}/*# sourceMappingURL=style.css.map */
